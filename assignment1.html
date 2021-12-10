@@ -1,0 +1,41 @@
+<!doctype>
+<html lan="en" and dir="Itr">
+<title>assignment1</title>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {background-color:rgb(230, 180, 176);}
+        h1 {color:rgb(255, 94, 0);}
+        p {color:rgba(67, 35, 212, 0.788);}
+        </style>
+<script>
+
+    function fun()
+     {
+      if(document.getElementById("username").value.length == 0) {
+          alert("username cannot be empty!")
+      } else {
+          var username = document.getElementById("username").value
+          var userId = Math.floor(Math.random() * (9999 - 1000) + 1000)
+          var output = "Your username: " + username + "\n" + "Your user ID: " + username+userId + "\n" + "Time of request: " + new Date()
+          document.getElementById("demo").textContent=output
+          
+      }
+    }
+
+   </script>
+</head>
+    <body>
+    <form class="box" method="POST">
+ <h1>Convert the username into a unique id
+    
+ </h1>
+       <input type="text" name="" placeholder="enter username" id="username">
+       <input id="convert" type="button" value="convert" onclick="fun();" />
+<output display="inline"> 
+</form>
+
+<pre id="demo"></pre>
+
+    </body>
+</html>
