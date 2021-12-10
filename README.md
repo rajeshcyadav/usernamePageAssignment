@@ -6,4 +6,4 @@ Execution step:
 3. Click on the "convert" button
 
 Output:
-![alt text](https://github.com/rajeshcyadav/usernamePageAssignment/blob/main/output.jpg?raw=true)
+![alt text](https://github.com/rajeshcyadav/usernamePageAssignment/blob/main/output.png?raw=true)
